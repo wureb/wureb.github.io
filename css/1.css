@@ -116,10 +116,26 @@ hr {
     height: 2px;
 
 }
+
+#hi1 {
+    margin-left: 0%
+    width: 500px;
+    margin-top: -5;
+    margin-bottom: -10px;
+}
+
     
 #up1 {
     padding-top: -20%;
     /*transform: translate(0%, -10%); */
+}
+
+#up2 {
+    transform: translate(0%, -10%);
+}
+
+#left1 {
+    transform: translate(0%, -5%);
 }
 
 
