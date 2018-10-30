@@ -1,4 +1,3 @@
-
 /* General Layout Styles */
 
 
@@ -44,7 +43,6 @@ hr {
     margin-left: 28.5%;
 }
 
-
 footer {
     width: 100%;
     font-size: 10pt;
@@ -60,8 +58,6 @@ footer {
 }
 
 
-
-
 /* Class */
 
 
@@ -72,7 +68,6 @@ footer {
 	float: left;
     font-size: 10pt;
     text-align: center;
-    margin-left: 10px;
 }
 			
 .column2 {
@@ -87,18 +82,13 @@ footer {
     margin: auto;
 }
 
-.column4 {
+.column5 {
     width: 37.5%;
     margin-left: 5%;
     float: left;
     margin: auto;
     margin-bottom: 5%;
 }
-
-.clear {
-    clear: both;
-}
-
 
 
 /* iD */
@@ -121,15 +111,9 @@ footer {
     margin-top: -5;
     margin-bottom: -10px;
 }
-
-#hr2 {
-    width: 100%;
-    margin-left: 0%;
-}
     
 #up1 {
     padding-top: -20%;
-    padding-bottom: 10px;
     /*transform: translate(0%, -10%); */
 }
 
@@ -146,133 +130,52 @@ footer {
     height: auto;
 }
 
-#head {
-    margin-left: -75%;
-}
-
-#buffer {
-    
-    padding-top: 30px
-}
-
-#alignright {
-
-    text-align: right;
-}
-
-#tb {
-
-}
-
-#tb1 {
-    
-}
-
-/* */
 
 
 @media only screen and (max-width: 768px) {
     .column1 {
-        font-size: 15pt;
-        margin-left: 20%;
-        width: 50%;
-        padding-bottom: 40px;
-
+        font-size: 5pt;
+        margin-left: 5%;
+        text-align: justify;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .column2 {
-        width: 100%;
-        
+        width: 50%;
+        margin-left: 10%;
         margin-top: -10%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .column3 {
-        width: 100%;
-        
-        margin-top: -10%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .column4 {
-        width: 100%;
-        
-        margin-top: -10%;
-    }
-}
-
-
-/* */
-
-
-@media only screen and (max-width: 1280px) {
-    .column1 {
-        margin-right: 20px;
-        width: 12%;
-
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .column2 {
-       width: 40%;
-        
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .column3 {
-        width: 40%;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .column4 {
-        width: 40%;
-    }
-}
-
-
-/* */
-
-@media only screen and (max-width: 1280px) {
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
-    #tb {
         width: 50%;
-
+        margin-left: 45%;
+        margin-top: -10%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    #tb1 {
-        width="360" 
-        height="115"
-
+    .column5 {
+        width: 50%;
+        margin-left: 45%;
+        margin-top: -10%;
     }
 }
+
 
 
 @media only screen and (max-width: 768px) {
     figcaption {
-        font-size: 8.5pt;
+        font-size: 6.5pt;
     }
 }
 
 @media only screen and (max-width: 768px) {
     img {
-        ;
-        
+        width: 110%;
+        height: auto;
     }
 }
 
@@ -397,7 +300,3 @@ footer {
     background-color: red;
     transform: rotateX(20deg);
 }
-
-
-
-
