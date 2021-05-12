@@ -189,6 +189,19 @@ img {
 
 }
 
+.column-i {
+    width: 35%;
+    float: left;
+    height: 800px;
+    background-image: url('../media/select.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 30%;
+    margin-bottom: -5%;
+    
+
+}
+
 .column-c {
     width: 33%;
     float: left;
@@ -637,10 +650,23 @@ img {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .column-i {
+        font-size: 10pt;
+        width: 100%;
+        margin-left: 0%;
+        
+        padding-left: 0%;
+        margin-top: 6%;
+
+
+    }
+}
+
 
 @media only screen and (max-width: 900px) {
     .actualizings {
-        font-size: 25pt;
+        font-size: 20pt;
         width: 100%;
         margin-left: 0%;
         
@@ -825,6 +851,13 @@ img {
 @media only screen and (max-width: 768px) {
     #up3 {
         width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #up1 {
+        padding-left: 10%;
 
     }
 }
